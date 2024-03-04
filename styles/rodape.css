@@ -1,0 +1,43 @@
+.rodape{
+    text-align: center;
+}
+
+.rodape__titulo{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape__subtitulo{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    padding: 1.25em 0 2.50em 0;
+}
+
+.newstaller__email{
+    width: 22.5em;
+    height: 3em;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #D0D5DD;
+}
+
+.newstaller__email::placeholder{
+    padding: 1em 0.75em;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newstaller__botao{
+    background-color: var(--vermelho);
+    padding: 0.75em 1.25em ;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.rodape__direitos{
+    color: #98A2B3;
+    padding: 2em 0 6em 0;
+}

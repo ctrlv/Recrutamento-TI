@@ -1,0 +1,29 @@
+.metricas{
+    display: flex;
+    padding: 0 5em 6em 5em;
+    justify-content: center;
+}
+
+.metricas__colunas{
+    padding: 0 2em;
+    width: 280px;
+    
+}
+
+.metricas__numero{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.metricas__subitulo{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.75em 0 0.5em 0;
+    color: var(--preto);
+}
+
+.metricas__texto{
+    font-weight: 400;
+    color: var(--cinza);
+}
